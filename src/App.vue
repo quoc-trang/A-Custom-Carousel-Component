@@ -11,6 +11,6 @@ const urls = [
 
 <template>
   <div class="page">
-    <AppCarousel :urls="urls" />
+    <AppCarousel :urls="urls" :duration="3000" />
   </div>
 </template>

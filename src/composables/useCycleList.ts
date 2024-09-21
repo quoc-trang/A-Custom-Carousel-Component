@@ -25,7 +25,7 @@ export const useCycleList = <T>(list: MaybeRefOrGetter<T[]>) => {
       return reactiveList.value[activeIndex.value];
     },
     set(value) {
-      reactiveList.value[activeIndex.value] = value;
+      // reactiveList.value[activeIndex.value] = value;
     },
   });
 
